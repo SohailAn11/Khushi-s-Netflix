@@ -1,4 +1,4 @@
-# netflix-clone
+# netflix-ui-clone
 <br>
 This project is a clone of the Netflix homepage, created using HTML and CSS. 
 <br>
