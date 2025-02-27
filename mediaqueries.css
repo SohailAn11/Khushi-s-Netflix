@@ -94,6 +94,8 @@
 
 @media screen and (min-width:960px) and (max-width:1280px) {
 
+
+
     .navbar {
         height: 88px;
 
@@ -102,10 +104,6 @@
     }
 
 
-    .content {
-        height: 70vh;
-
-    }
 
     .content h1 {
 
@@ -151,10 +149,7 @@
         width: 148px;
     }
 
-    .content {
-        height: 60vh;
 
-    }
 
     .content h1 {
         font-size: 35px;
@@ -173,12 +168,10 @@
 
         max-width: 1920px;
         margin: auto;
-        height: 85vh;
     }
 
-    .content {
-        height: 72vh;
-    }
+
+
 
     .first div {
         width: 100%;
@@ -201,9 +194,7 @@
         padding-bottom: 10px;
     }
 
-    .trending-select h2 {
-        padding-top: 20px;
-    }
+    
 
     .content-box h2 {
         padding-top: 20px;
@@ -275,265 +266,289 @@
         padding-bottom: 10px;
     }
 
-  
+
 }
 
 
-    @media screen and (max-width:590px) {
+@media screen and (max-width:590px) {
 
-        /* navigation section */
-
-
-        .main-header {
-            height: 80vh;
-        }
-
-        .navbar {
-            height: 88px;
-            /* width: 1185px; */
-            /* margin-inline: auto; */
-            max-width: 1920px;
-            justify-content: space-between;
-            padding-inline: 24px;
-        }
-
-        .nav-logo {
-            height: 24px;
-            width: 89px;
-        }
-
-        .content h1 {
-            font-size: 25px;
-        }
-
-        .secImg img {
-            max-width: 90%;
-            min-width: 372px;
-        }
-
-        .secImg video {
-            /* max-width: 75%; */
-            min-width: 280px;
-            top: 93px;
-            right: 15%;
-
-        }
-
-        .nav-lang {
-            width: 60px;
-
-        }
-
-        .nav-lang p {
-            display: none;
-        }
-
-        .nav-lang {
-            gap: 6px;
-        }
+    /* navigation section */
 
 
-        .content {
-            height: 62vh;
-        }
+    .main-header {
+        height: 80vh;
+    }
 
-        .content-text h1 {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 800;
-            margin-bottom: 8px;
-        }
+    .navbar {
+        height: 88px;
+        /* width: 1185px; */
+        /* margin-inline: auto; */
+        max-width: 1920px;
+        justify-content: space-between;
+        padding-inline: 24px;
+    }
 
-        .content-text h3 {
-            text-align: center;
-            margin-bottom: 16px;
-            font-size: 16px;
-            font-weight: 700;
+    .nav-logo {
+        height: 24px;
+        width: 89px;
+    }
 
-        }
+    .content h1 {
+        font-size: 25px;
+    }
 
-        .content-text h4 {
-            text-align: center;
-            font-size: 16px;
-            font-weight: 700;
-        }
+    .secImg img {
+        max-width: 90%;
+        min-width: 372px;
+    }
 
-        .content-email {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            height: auto;
-            align-items: center;
-            gap: 10px;
-        }
+    .secImg video {
+        /* max-width: 75%; */
+        min-width: 280px;
+        top: 93px;
+        right: 15%;
 
-        .content-email input {
-            height: 56px;
-            width: 95%;
-            display: block;
-        }
+    }
 
+    .nav-lang {
+        width: 60px;
 
-        .content-email button {
-            width: 50%;
-            height: 56px;
-            /* font-size: 12px; */
+    }
 
-        }
+    .nav-lang p {
+        display: none;
+    }
 
-        .trending-select {
-            padding-bottom: 10px;
-        }
-
-        .content-trending {
-            margin-bottom: 50px;
-        }
-
-        .trending-box .box-trend {
-            height: 300px;
-            min-width: 200px;
-        }
-
-   
-        .plan-box {
-            /* margin: 1px 0; */
-            padding-top: 0;
-
-        }
-
-        .faqs h2 {
-            font-size: 18px;
-
-        }
-
-        .content-paragraph {
-            height: 150px;
-        }
-
-        .plan-box .box {
-            height: 150px;
-            min-width: 300px;
-            padding: 2 0px 20px;
-        }
+    .nav-lang {
+        gap: 6px;
+    }
 
 
+    .content {
+        height: 62vh;
+    }
+
+    .content-text h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 8px;
+    }
+
+    .content-text h3 {
+        text-align: center;
+        margin-bottom: 16px;
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+
+    .content-text h4 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .content-email {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .content-email input {
+        height: 56px;
+        width: 95%;
+        display: block;
+    }
+
+
+    .content-email button {
+        width: 50%;
+        height: 56px;
+        /* font-size: 12px; */
+
+    }
+
+    .trending-select {
+        padding-bottom: 10px;
+    }
+
+    .content-trending {
+        margin-bottom: 50px;
+    }
+
+    .trending-box .box-trend {
+        height: 300px;
+        min-width: 200px;
+    }
+
+
+    .plan-box {
+        /* margin: 1px 0; */
+        padding-top: 0;
+
+    }
+
+    .faqs h2 {
+        font-size: 18px;
+
+    }
+
+    .content-paragraph {
+        height: 150px;
+    }
+
+    .plan-box .box {
+        height: 150px;
+        min-width: 300px;
+        padding: 2 0px 20px;
+    }
 
 
 
 
 
 
-        .memail {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            height: auto;
-            align-items: center;
-            justify-content: normal;
-            gap: 10px;
-        }
-
-        .memail input {
-            /* height: 56px; */
-            width: 100%;
-            display: block;
-        }
 
 
-        .memail button {
-            width: 160px;
-            height: 56px;
-            align-self: flex-start;
+    .memail {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: normal;
+        gap: 10px;
+    }
 
-        }
+    .memail input {
+        /* height: 56px; */
+        width: 100%;
+        display: block;
+    }
 
+
+    .memail button {
+        width: 160px;
+        height: 56px;
+        align-self: flex-start;
 
     }
 
 
-    @media screen and (max-width:380px) {}
+}
 
 
-    @media screen and (max-width:1280px) {
-        .plan-box {
-
-            display: flex;
-            align-items: normal;
-            justify-content: space-between;
-            /* gap: 50px; */
-            /* padding-top: 20px; */
-            /* flex-wrap: wrap; */
-            /* width: 852px; */
-            gap: 20px;
-            overflow-x: scroll;
-            /* overflow-y: hidden; */
-            flex-wrap: nowrap;
+@media screen and (min-width:1280px) {
+    .trending-select h2 {
+        padding-top: 20px;
+    }
+}
 
 
-        }
+@media screen and (max-width:1280px) {
+    .main-header {
+        height: auto;
+    }
 
-        .box {
-            min-width: 240px;
-            height: 220px;
-            margin: 20px 0px 20px 0;
-            flex-wrap: nowrap;
-        }
-
-        .trending-box {
-
-            display: flex;
-            align-items: normal;
-            justify-content: space-between;
-            /* gap: 50px; */
-            /* padding-top: 20px; */
-            /* flex-wrap: wrap; */
-            /* width: 852px; */
-            gap: 20px;
-            overflow-x: scroll;
-            flex-wrap: nowrap;
-        }
-
-        .box-trend {
-            min-width: 240px;
-            height: 330px;
-            margin: 20px 0px 20px 0;
-            flex-wrap: nowrap;
-        }
-
-        .sec-vImg {
-            position: relative;
-        }
-
-        .sec-vImg img {
-            position: relative;
-            /* width: 5 */
-            width: 500px;
-
-            /* 0px; */
-            z-index: 9;
-            margin-inline: auto;
-            top: 30px;
-        }
-
-        .sec-vImg video {
-            position: absolute;
-            width: 400px;
-            top: 120px;
-            right: 10%;
-            /* right: 100px; */
-            /* bottom: 30%; */
-            margin-inline: auto;
-            /* bottom: 300px; */
-        }
-
-        .sec-vImg .video {
-            width: 420px;
-            margin-inline: auto;
-            /* right: 296px; */
-            top: 128px;
-            right: 14%;
-
-        }
+    .content {
+        /* height: 60vh; */
+        height: 500px;
 
 
     }
+
+    .trending-select h2 {
+        padding-top: 20px;
+    }
+
+    .plan-box {
+
+        display: flex;
+        align-items: normal;
+        justify-content: space-between;
+        /* gap: 50px; */
+        /* padding-top: 20px; */
+        /* flex-wrap: wrap; */
+        /* width: 852px; */
+        gap: 20px;
+        overflow-x: scroll;
+        /* overflow-y: hidden; */
+        flex-wrap: nowrap;
+
+
+    }
+
+    .box {
+        min-width: 240px;
+        height: 220px;
+        margin: 20px 0px 20px 0;
+        flex-wrap: nowrap;
+    }
+
+    .trending-box {
+
+        display: flex;
+        align-items: normal;
+        justify-content: space-between;
+        /* gap: 50px; */
+        /* padding-top: 20px; */
+        /* flex-wrap: wrap; */
+        /* width: 852px; */
+        gap: 20px;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+
+
+    .trending-box::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    .box-trend {
+        min-width: 240px;
+        height: 330px;
+        margin: 20px 0px 20px 0;
+        flex-wrap: nowrap;
+    }
+
+    .sec-vImg {
+        position: relative;
+    }
+
+    .sec-vImg img {
+        position: relative;
+        /* width: 5 */
+        width: 500px;
+
+        /* 0px; */
+        z-index: 9;
+        margin-inline: auto;
+        top: 30px;
+    }
+
+    .sec-vImg video {
+        position: absolute;
+        width: 400px;
+        top: 120px;
+        right: 10%;
+        /* right: 100px; */
+        /* bottom: 30%; */
+        margin-inline: auto;
+        /* bottom: 300px; */
+    }
+
+    .sec-vImg .video {
+        width: 420px;
+        margin-inline: auto;
+        /* right: 296px; */
+        top: 128px;
+        right: 14%;
+
+    }
+
+}

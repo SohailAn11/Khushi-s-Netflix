@@ -133,6 +133,7 @@ header {
     /* width: 1519px; */
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     /* flex-wrap: wrap; */
     padding-inline: 20px;
 }
